@@ -1,13 +1,10 @@
-require('dotenv').config()
-
 const { Telegraf } = require('telegraf')
 const timetable = require('./assets/timetable.json')
 
-const BOT_TOKEN = process.env.BOT_TOKEN
-const PORT = process.env.PORT
-const URL = process.env.URL
+require('dotenv').config()
 
-const bot = new Telegraf(BOT_TOKEN)
+const bot = new Telegraf(process.env.BOT_TOKEN);
+
 bot.start((ctx) => ctx.reply('Keep training and get stronger. I’ll always be one step ahead of you, though!'))
 bot.help((ctx) => ctx.reply('Atmanirbhar Bano'))
 
@@ -47,8 +44,21 @@ function findClasses(timetable,timestamp){
         if(!classes[1]) classes[1] = tt[i];
       }
     }
+
+    let formatTime = str => {
+      let time = parseInt(str)
+      if(time<12) return time +'am';
+      else if(time==12) return time + 'pm';
+      else return (time-12)+'pm';
+  }
+
+    let msg = ''
+    if(classes[0]) msg+= `Current Class(${formatTime(classes[0].time)}): ${classes[0].subject.acronym} - ${classes[0].type.substring(0,3).toUpperCase()}`
+    if(classes[0] && classes[1]) msg+= '\n'
+    if(classes[1]) msg+= `Next Class(${formatTime(classes[1].time)}): ${classes[1].subject.acronym} - ${classes[1].type.substring(0,3).toUpperCase()}`
+    if(!classes[0] && !classes[1]) msg+= `Class nhi hai abhi, Enjoy krle ${ctx.from.first_name} yr!`
     
-    return classes
+    return msg
 }
 
 function findClassesToday(timetable,timestamp){
@@ -99,14 +109,9 @@ function findClassesToday(timetable,timestamp){
     return classes 
 }
 
-
 bot.command(["class","classnow"],(ctx)=>{
     let classes = findClasses(timetable,ctx.message.date*1000)
-    let msg = ''
-    if(classes[0]) msg+= `Current Class: ${classes[0].subject.acronym} - ${classes[0].type.substring(0,3).toUpperCase()}`
-    if(classes[1]) msg+= `Current Class: ${classes[1].subject.acronym} - ${classes[1].type.substring(0,3).toUpperCase()}`
-    if(!classes[0] && !classes[1]) msg+= `Class nhi hai abhi, Enjoy krle ${ctx.from.first_name} yr!`
-    ctx.reply(msg)
+    ctx.reply(classes)
 })
 
 bot.command("classtoday",(ctx)=>{
@@ -114,11 +119,15 @@ bot.command("classtoday",(ctx)=>{
     ctx.reply(classes)
 })
 
-if(process.env.DEV){
-    bot.launch()
-}else {
-    bot.telegram.setWebhook(`${URL}/bot${BOT_TOKEN}`)
-    bot.startWebhook(`/bot${BOT_TOKEN}`, null, PORT)
+if (process.env.NODE_ENV === 'production') {
+  bot.launch({
+      webhook: {
+          domain: process.env.HEROKU_URL,
+          port: parseInt(process.env.PORT || '3000')
+      }
+  })
+} else {
+  bot.launch()
 }
 
 // Enable graceful stop
