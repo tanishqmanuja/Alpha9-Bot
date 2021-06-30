@@ -1,0 +1,526 @@
+[
+    {
+        "day": "monday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 9,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 11,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 15,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 16,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Satellite Communication",
+            "acronym": "S.Comm",
+            "coursecode": "18B12EC417",
+            "refcode": "EC417"
+        },
+        "venue": null,
+        "teachers": [
+            "AJK"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 12,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 9,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 10,
+        "type": "tutorial",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 14,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 12,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Digital Control System",
+            "acronym": "DCS",
+            "coursecode": "18B12EC413",
+            "refcode": "EC413"
+        },
+        "venue": null,
+        "teachers": [
+            "RS"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Research Methodology and Intellectual Property Rights",
+            "acronym": "RM&IPR",
+            "coursecode": "18M11GE111",
+            "refcode": "GE111"
+        },
+        "venue": null,
+        "teachers": [
+            "BPC/HA"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Research Methodology and Intellectual Property Rights",
+            "acronym": "RM&IPR",
+            "coursecode": "18M11GE111",
+            "refcode": "GE111"
+        },
+        "venue": null,
+        "teachers": [
+            "BPC/HA"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "wednesday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Research Methodology and Intellectual Property Rights",
+            "acronym": "RM&IPR",
+            "coursecode": "18M11GE111",
+            "refcode": "GE111"
+        },
+        "venue": null,
+        "teachers": [
+            "BPC/HA"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "thursday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Research Methodology and Intellectual Property Rights",
+            "acronym": "RM&IPR",
+            "coursecode": "18M11GE111",
+            "refcode": "GE111"
+        },
+        "venue": null,
+        "teachers": [
+            "BPC/HA"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },{
+        "day": "friday",
+        "time": 16,
+        "type": "lecture",
+        "duration": "1",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "Research Methodology and Intellectual Property Rights",
+            "acronym": "RM&IPR",
+            "coursecode": "18M11GE111",
+            "refcode": "GE111"
+        },
+        "venue": null,
+        "teachers": [
+            "BPC/HA"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "monday",
+        "time": 9,
+        "type": "practical",
+        "duration": "3",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "ECE Design and Simulation Lab",
+            "acronym": "EDSL",
+            "coursecode": "17M15EC114",
+            "refcode": "EC114"
+        },
+        "venue": null,
+        "teachers": [
+            "AKG"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "tuesday",
+        "time": 10,
+        "type": "practical",
+        "duration": "3",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "ECE Design and Simulation Lab",
+            "acronym": "EDSL",
+            "coursecode": "17M15EC114",
+            "refcode": "EC114"
+        },
+        "venue": null,
+        "teachers": [
+            "AKG"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "friday",
+        "time": 9,
+        "type": "practical",
+        "duration": "3",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "ECE Design and Simulation Lab",
+            "acronym": "EDSL",
+            "coursecode": "17M15EC114",
+            "refcode": "EC114"
+        },
+        "venue": null,
+        "teachers": [
+            "AKG"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    },
+    {
+        "day": "saturday",
+        "time": 9,
+        "type": "practical",
+        "duration": "3",
+        "batches": [
+            "A9"
+        ],
+        "subject": {
+            "name": "ECE Design and Simulation Lab",
+            "acronym": "EDSL",
+            "coursecode": "17M15EC114",
+            "refcode": "EC114"
+        },
+        "venue": null,
+        "teachers": [
+            "AKG"
+        ],
+        "sem": "9",
+        "degree": "btech"
+    }
+]
